@@ -6,7 +6,6 @@ import { scrapeRouter } from "./routes/scrape.routes";
 
 dotenv.config();
 
-const holaquehace = "holaquehace";
 const app = express();
 const port = process.env.PORT || 3000;
 
